@@ -1,0 +1,23 @@
+<style>
+    body {
+        margin: 0;
+        background: black;
+    }
+</style>
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+<div class="fixed text-white ml-2 mt-1 text-sm select-none"><span>Pontuação: </span><span id="scoreEl">0</span></div>
+<div class="fixed inset-0 flex justify-center items-center" id="modalEl">
+    <div class="w-full text-white max-w-md p-6 rounded text-center select-none -mt-8">
+        <h1 class="text-4xl font-semibold" id="bigScoreEl">0</h1>
+        <p class=" text-sm">Pontos</p>
+        <div>
+            <button id="startGameBtn" class="bg-indigo-700 focus:outline-none hover:bg-indigo-500 text-white rounded-full p-3 px-8 mt-16">Começar!</button>
+        </div>
+    </div>
+</div>
+<canvas></canvas>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous"></script>
+<script src="assets/js/index.js"></script>
