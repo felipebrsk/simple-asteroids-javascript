@@ -213,4 +213,5 @@ startGameBtn.addEventListener('click', () => {
     animate();
     spawn();
     modalEl.style.display = 'none';
+    score = 0;
 });
