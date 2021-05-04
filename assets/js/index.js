@@ -108,6 +108,7 @@ function init() {
     projectiles = [];
     enemies = [];
     particles = [];
+    score = 0;
 }
 
 function spawn() {
@@ -213,5 +214,4 @@ startGameBtn.addEventListener('click', () => {
     animate();
     spawn();
     modalEl.style.display = 'none';
-    score = 0;
 });
